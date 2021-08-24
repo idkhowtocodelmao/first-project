@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Change content?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById('demo').innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<h2>Change value</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src=''">Turn on the light</button>
+
+<img id="myImage" src="" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src=''">Turn off the light</button>
+
+<h2>Change style</h2>
+
+<p id="demoo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demoo').style.fontSize='35px'">Click Me!</button>
+
+<h3>Can hide</h3>
+
+<p id="hide">JavaScript can hide.</p>
+
+<button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+
+<h3>Can unhide</h3>
+
+<p id="unhide" style="display:none">JavaScript can show hidden elements.</p>
+
+<button type="button" onclick="document.getElementById('unhide').style.display='block'">Click Me!</button>
+
+<h2>Hide and Unhide</h2>
+
+<p id="demo1">Javascript learning.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='block'">Appear</button>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='none'">Disappear</button>
+
+</body>
+</html>
